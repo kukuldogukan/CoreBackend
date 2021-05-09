@@ -38,19 +38,19 @@ namespace Business.Concrete
         public IResult Add(Product product)
         {
             _productDal.Add(product);
-            return new SuccessResult(Messages.ProductAdded);
+            return new SuccessResult(Messages.CategoryAdded);
         }
 
         public IResult Delete(Product product)
         {
             _productDal.Delete(product);
-            return new SuccessResult(Messages.ProductDeleted);
+            return new SuccessResult(Messages.CategoryDeleted);
         }
 
         public IResult Update(Product product)
         {
             _productDal.Update(product);
-            return new SuccessResult(Messages.ProductUpdated);
+            return new SuccessResult(Messages.CategoryUpdated);
         }
     }
 }
