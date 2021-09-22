@@ -15,5 +15,6 @@
         public static string UserRegistered = "Kullanıcı başarıyla kaydedildi.";
         public static string AccessTokenCreated = "Access Token başarıyla oluşturuldu.";
         public static string AuthorizationDenied = "Yetkiniz bulunmamaktadır.";
+        public static string ProductNameAlreadyExists = "Ürün ismi halihazırda bulunmakta";
     }
 }
