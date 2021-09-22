@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Business.Constants
+﻿namespace Business.Constants
 {
     public static class Messages
     {
@@ -18,5 +14,6 @@ namespace Business.Constants
         public static string UserAlreadyExists = "Kullanıcı mevcut";
         public static string UserRegistered = "Kullanıcı başarıyla kaydedildi.";
         public static string AccessTokenCreated = "Access Token başarıyla oluşturuldu.";
+        public static string AuthorizationDenied = "Yetkiniz bulunmamaktadır.";
     }
 }

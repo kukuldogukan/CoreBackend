@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Autofac;
+﻿using Autofac;
 using Autofac.Extras.DynamicProxy;
 using Business.Abstract;
 using Business.Concrete;
@@ -10,7 +7,6 @@ using Core.Utilities.Interceptors;
 using Core.Utilities.Security.JWT;
 using DataAccess.Abstract;
 using DataAccess.Concrete.EntityFramework;
-using Entities.Concrete;
 
 namespace Business.DependencyResolvers.Autofac
 {

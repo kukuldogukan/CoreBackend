@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Text;
+﻿using System.ComponentModel.DataAnnotations;
 using Core.Entities;
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace Entities.Concrete
 {
